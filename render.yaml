@@ -1,0 +1,32 @@
+# Render Blueprint - backend API + managed PostgreSQL (PostGIS extension is enabled by migration 0001).
+# Frontend is deployed separately on Vercel (see docs/DEPLOYMENT.md).
+databases:
+  - name: airsense-db
+    plan: free
+    databaseName: airsense
+    user: airsense
+    postgresMajorVersion: "16"
+
+services:
+  - type: web
+    name: airsense-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: starter            # free plan's 512 MB is tight for pandas + XGBoost
+    healthCheckPath: /health/ready
+    envVars:
+      - key: AIRSENSE_ENV
+        value: production
+      - key: AIRSENSE_DATABASE_URL
+        fromDatabase: { name: airsense-db, property: connectionString }
+      - key: AIRSENSE_SECRET_KEY
+        generateValue: true
+      - key: AIRSENSE_CORS_ORIGINS
+        sync: false           # e.g. https://airsense.vercel.app
+      - key: AIRSENSE_FRONTEND_URL
+        sync: false
+      - key: AIRSENSE_ENABLE_SCHEDULER
+        value: "true"
+      - key: WEB_CONCURRENCY
+        value: "1"

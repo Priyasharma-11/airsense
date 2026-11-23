@@ -1,0 +1,39 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# --- data: raw archive is reproducible via `python -m airsense.ml.data_collection`
+data/raw/
+*.db
+*.db-shm
+*.db-wal
+models_smoke/
+
+# --- node / next ---
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+*.tsbuildinfo
+frontend/next-env.d.ts
+
+# --- tooling ---
+.claude/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
