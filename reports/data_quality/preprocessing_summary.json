@@ -1,0 +1,275 @@
+{
+  "raw_rows": {
+    "3409331": 355061,
+    "3409435": 454369,
+    "3409436": 457118,
+    "3409437": 529022,
+    "3409438": 434235,
+    "3409439": 264205,
+    "3409523": 400190,
+    "3409526": 498602,
+    "3409528": 293080,
+    "3410005": 323747
+  },
+  "hourly_rows": 153153,
+  "period_utc": [
+    "2025-02-18 20:00:00+00:00",
+    "2026-11-19 18:00:00+00:00"
+  ],
+  "units_as_labelled_by_openaq": {
+    "3409331": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409435": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "so2": "ppb",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409436": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "so2": "ppb",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409437": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "so2": "ppb",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409438": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "so2": "ppb",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409439": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "so2": "ppb",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409523": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409526": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3409528": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "so2": "ppb",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    },
+    "3410005": {
+      "co": "ppb",
+      "no": "ppb",
+      "no2": "ppb",
+      "nox": "ppb",
+      "o3": "\u00b5g/m\u00b3",
+      "pm10": "\u00b5g/m\u00b3",
+      "pm25": "\u00b5g/m\u00b3",
+      "st_rh": "%",
+      "st_temp": "c",
+      "st_wind_dir": "deg",
+      "st_wind_speed": "m/s"
+    }
+  },
+  "rules": {
+    "bounds": {
+      "pm25": [
+        0.0,
+        1000.0
+      ],
+      "pm10": [
+        0.0,
+        2000.0
+      ],
+      "no2": [
+        0.0,
+        1000.0
+      ],
+      "so2": [
+        0.0,
+        1000.0
+      ],
+      "co": [
+        0.0,
+        50.0
+      ],
+      "o3": [
+        0.0,
+        1000.0
+      ],
+      "no": [
+        0.0,
+        1500.0
+      ],
+      "nox": [
+        0.0,
+        2000.0
+      ],
+      "st_temp": [
+        -5.0,
+        50.0
+      ],
+      "st_rh": [
+        0.0,
+        100.0
+      ],
+      "st_wind_speed": [
+        0.0,
+        40.0
+      ],
+      "st_wind_dir": [
+        0.0,
+        360.0
+      ]
+    },
+    "flatline_hours": 6,
+    "min_slots_per_hour": 2,
+    "max_interp_gap_h": 2,
+    "outlier_robust_z": 6.0
+  },
+  "station_selection": [
+    {
+      "location_id": 3409331,
+      "pm25_coverage_pct": 70.9,
+      "hours": 15175,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3409435,
+      "pm25_coverage_pct": 76.0,
+      "hours": 15335,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3409436,
+      "pm25_coverage_pct": 79.2,
+      "hours": 15335,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3409437,
+      "pm25_coverage_pct": 85.4,
+      "hours": 15325,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3409438,
+      "pm25_coverage_pct": 73.8,
+      "hours": 15310,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3409439,
+      "pm25_coverage_pct": 47.7,
+      "hours": 15334,
+      "selected_for_model": false
+    },
+    {
+      "location_id": 3409523,
+      "pm25_coverage_pct": 76.5,
+      "hours": 15335,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3409526,
+      "pm25_coverage_pct": 90.5,
+      "hours": 15335,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3409528,
+      "pm25_coverage_pct": 81.9,
+      "hours": 15334,
+      "selected_for_model": true
+    },
+    {
+      "location_id": 3410005,
+      "pm25_coverage_pct": 61.8,
+      "hours": 15335,
+      "selected_for_model": false
+    }
+  ]
+}

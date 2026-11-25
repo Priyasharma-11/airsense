@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+/* ============================================================================
+   AirSense design system - tokens
+   Light & dark themes share one semantic token set (class-based dark mode).
+   ========================================================================== */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Surfaces */
+  --bg: #f6f8fa;
+  --bg-elevated: #ffffff;
+  --bg-subtle: #eef2f5;
+  --bg-inset: #e6ebf0;
+  --border: #e2e8ee;
+  --border-strong: #cdd6df;
+
+  /* Text */
+  --fg: #0b1726;
+  --fg-muted: #4a5a6c;
+  --fg-subtle: #7a8898;
+
+  /* Brand: "atmos" teal + "sky" accent */
+  --brand-50: #ecfdf9;
+  --brand-100: #cff7ee;
+  --brand-400: #2dd4b4;
+  --brand-500: #12b89a;
+  --brand-600: #0a9480;
+  --brand-700: #0b7668;
+  --accent: #3b82f6;
+
+  /* Feedback */
+  --success: #16a34a;
+  --warning: #d97706;
+  --danger: #dc2626;
+
+  /* CPCB AQI categories */
+  --aqi-good: #2e9e5b;
+  --aqi-satisfactory: #8fbf3f;
+  --aqi-moderate: #e5b53a;
+  --aqi-poor: #ee8a3c;
+  --aqi-very-poor: #e04f4f;
+  --aqi-severe: #8e2c48;
+
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.05);
+  --shadow-md: 0 1px 2px rgb(15 23 42 / 0.04), 0 4px 16px -4px rgb(15 23 42 / 0.08);
+  --shadow-lg: 0 2px 4px rgb(15 23 42 / 0.04), 0 16px 40px -12px rgb(15 23 42 / 0.18);
+  --ring: 0 0 0 3px rgb(18 184 154 / 0.35);
+}
+
+.dark {
+  --bg: #070d16;
+  --bg-elevated: #0d1622;
+  --bg-subtle: #111c2a;
+  --bg-inset: #162334;
+  --border: #1c2a3b;
+  --border-strong: #273a50;
+  --fg: #e8eef5;
+  --fg-muted: #9db0c4;
+  --fg-subtle: #6c8299;
+  --brand-50: #072a25;
+  --brand-100: #0b3b33;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -8px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.3), 0 24px 48px -12px rgb(0 0 0 / 0.6);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-elevated: var(--bg-elevated);
+  --color-subtle: var(--bg-subtle);
+  --color-inset: var(--bg-inset);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-faint: var(--fg-subtle);
+  --color-brand-50: var(--brand-50);
+  --color-brand-100: var(--brand-100);
+  --color-brand-400: var(--brand-400);
+  --color-brand-500: var(--brand-500);
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-aqi-good: var(--aqi-good);
+  --color-aqi-satisfactory: var(--aqi-satisfactory);
+  --color-aqi-moderate: var(--aqi-moderate);
+  --color-aqi-poor: var(--aqi-poor);
+  --color-aqi-very-poor: var(--aqi-very-poor);
+  --color-aqi-severe: var(--aqi-severe);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sora), var(--font-inter), ui-sans-serif, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Radius scale */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+
+  --shadow-card: var(--shadow-md);
+  --shadow-pop: var(--shadow-lg);
+}
+
+html {
+  color-scheme: light;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html.dark { color-scheme: dark; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+}
+
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Focus visible ring for keyboard users everywhere */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+  border-radius: 8px;
+}
+
+/* Skeleton shimmer */
+@keyframes shimmer { 100% { transform: translateX(100%); } }
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-inset);
+  border-radius: 8px;
+}
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.35), transparent);
+  animation: shimmer 1.4s infinite;
+}
+.dark .skeleton::after { background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.05), transparent); }
+
+/* Subtle grid texture used on the landing hero */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(148 163 184 / 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(148 163 184 / 0.08) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* Leaflet theming */
+.leaflet-container { font-family: var(--font-sans); background: var(--bg-subtle); border-radius: inherit; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: var(--bg-elevated); color: var(--fg); box-shadow: var(--shadow-lg); border: 1px solid var(--border);
+}
+.leaflet-popup-content { margin: 12px 14px; }
+.leaflet-control-attribution { font-size: 10px; }
+.dark .leaflet-control-attribution { background: rgb(13 22 34 / 0.8) !important; color: var(--fg-muted); }
+.dark .leaflet-control-attribution a { color: var(--brand-400); }
+.dark .leaflet-bar a { background: var(--bg-elevated); color: var(--fg); border-color: var(--border); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* Dark basemap: invert OSM tiles and calm the colours */
+.as-map .leaflet-tile-pane { filter: saturate(0.55) contrast(0.95); }
+.dark .as-map .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9) saturate(0.35); }

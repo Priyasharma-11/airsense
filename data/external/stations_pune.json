@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-22T20:13:32.157196+00:00",
+  "method": "openaq-archive id-range scan [(3409000, 3410500)]",
+  "source": "OpenAQ (https://openaq.org) - data originally reported by CPCB/MPCB/IITM",
+  "license": "CC BY 4.0",
+  "bbox": [
+    73.7,
+    18.4,
+    74.05,
+    18.7
+  ],
+  "stations": [
+    {
+      "location_id": 3409331,
+      "name": "Bhosari, Pune - IITM",
+      "latitude": 18.640051,
+      "longitude": 73.848956,
+      "provider": "IITM",
+      "city": "Pune",
+      "first_seen": "20250225"
+    },
+    {
+      "location_id": 3409435,
+      "name": "Gavalinagar, Pimpri Chinchwad - MPCB",
+      "latitude": 18.63673,
+      "longitude": 73.82487,
+      "provider": "MPCB",
+      "city": "Pimpri-Chinchwad",
+      "first_seen": "20250219"
+    },
+    {
+      "location_id": 3409436,
+      "name": "Park Street Wakad, Pimpri Chinchwad - MPCB",
+      "latitude": 18.59051,
+      "longitude": 73.77946,
+      "provider": "MPCB",
+      "city": "Pimpri-Chinchwad",
+      "first_seen": "20250219"
+    },
+    {
+      "location_id": 3409437,
+      "name": "Thergaon, Pimpri Chinchwad - MPCB",
+      "latitude": 18.616318,
+      "longitude": 73.765797,
+      "provider": "MPCB",
+      "city": "Pimpri-Chinchwad",
+      "first_seen": "20250219"
+    },
+    {
+      "location_id": 3409438,
+      "name": "Katraj Dairy, Pune - MPCB",
+      "latitude": 18.45445,
+      "longitude": 73.854155,
+      "provider": "MPCB",
+      "city": "Pune",
+      "first_seen": "20250220"
+    },
+    {
+      "location_id": 3409439,
+      "name": "Savitribai Phule Pune University, Pune - MPCB",
+      "latitude": 18.547056,
+      "longitude": 73.826908,
+      "provider": "MPCB",
+      "city": "Pune",
+      "first_seen": "20250219"
+    },
+    {
+      "location_id": 3409523,
+      "name": "Bhumkar Nagar, Pune - IITM",
+      "latitude": 18.60577,
+      "longitude": 73.749976,
+      "provider": "IITM",
+      "city": "Pune",
+      "first_seen": "20250219"
+    },
+    {
+      "location_id": 3409526,
+      "name": "Panchawati_Pashan, Pune - IITM",
+      "latitude": 18.536457,
+      "longitude": 73.805454,
+      "provider": "IITM",
+      "city": "Pune",
+      "first_seen": "20250219"
+    },
+    {
+      "location_id": 3409528,
+      "name": "Savta Mali Nagar, Pimpri-Chinchwad - IITM",
+      "latitude": 18.614767,
+      "longitude": 73.799516,
+      "provider": "IITM",
+      "city": "Pimpri-Chinchwad",
+      "first_seen": "20250219"
+    },
+    {
+      "location_id": 3410005,
+      "name": "Dhankawadi, Pune - IITM",
+      "latitude": 18.459883,
+      "longitude": 73.852193,
+      "provider": "IITM",
+      "city": "Pune",
+      "first_seen": "20250219"
+    }
+  ]
+}

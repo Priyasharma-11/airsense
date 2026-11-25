@@ -1,0 +1,12 @@
+{
+  "active": "v20261122-6e6d1a",
+  "versions": [
+    {
+      "version": "v20261122-6e6d1a",
+      "created_at": "2026-11-22T20:44:01.986337+00:00",
+      "path": "v20261122-6e6d1a/best_model.pkl",
+      "data_hash": "6e6d1a97090b",
+      "horizons": 24
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "highest_months": {
+    "12": 84.1,
+    "11": 68.8,
+    "1": 66.8
+  },
+  "season_mean": {
+    "monsoon": 17.4,
+    "post_monsoon": 54.9,
+    "summer": 35.6,
+    "winter": 68.3
+  },
+  "peak_hour_ist": 8,
+  "min_hour_ist": 15,
+  "pm25_correlations": {
+    "pm10": 0.844,
+    "no2": 0.501,
+    "relative_humidity_2m": -0.482,
+    "wind_speed_10m": -0.476,
+    "precipitation": -0.4,
+    "co": 0.322,
+    "boundary_layer_height": -0.284,
+    "so2": 0.192,
+    "o3": 0.156,
+    "temperature_2m": -0.008
+  },
+  "station_mean": {
+    "Bhumkar Nagar": 51.3,
+    "Thergaon": 41.6,
+    "Savta Mali Nagar": 39.1,
+    "Park Street Wakad": 36.7,
+    "Dhankawadi": 35.4,
+    "Gavalinagar": 35.3,
+    "Panchawati Pashan": 32.2,
+    "Bhosari": 31.1,
+    "Katraj Dairy": 28.0,
+    "Savitribai Phule Pune University": 23.2
+  },
+  "rain_effect": {
+    "dry_days_mean": 50.5,
+    "wet_days_mean_ge5mm": 16.6,
+    "spearman_daily": -0.685
+  },
+  "records": 113899,
+  "period": [
+    "2025-02-18 20:00:00+00:00",
+    "2026-11-19 18:00:00+00:00"
+  ]
+}

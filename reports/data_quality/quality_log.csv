@@ -1,0 +1,348 @@
+location_id,parameter,check,count,action
+3409331,co,out_of_physical_bounds,12,removed
+3409331,co,flatline_>=6h,3040,removed
+3409331,co,hour_with_<50%_slots,547,hour set to NaN
+3409331,no,out_of_physical_bounds,12,removed
+3409331,no,flatline_>=6h,1375,removed
+3409331,no,hour_with_<50%_slots,537,hour set to NaN
+3409331,no2,out_of_physical_bounds,8,removed
+3409331,no2,flatline_>=6h,1371,removed
+3409331,no2,hour_with_<50%_slots,542,hour set to NaN
+3409331,nox,out_of_physical_bounds,11,removed
+3409331,nox,flatline_>=6h,583,removed
+3409331,nox,hour_with_<50%_slots,289,hour set to NaN
+3409331,o3,flatline_>=6h,530,removed
+3409331,o3,hour_with_<50%_slots,569,hour set to NaN
+3409331,pm10,flatline_>=6h,287,removed
+3409331,pm10,hour_with_<50%_slots,568,hour set to NaN
+3409331,pm25,flatline_>=6h,510,removed
+3409331,pm25,hour_with_<50%_slots,565,hour set to NaN
+3409331,st_rh,flatline_>=6h,137,removed
+3409331,st_rh,hour_with_<50%_slots,504,hour set to NaN
+3409331,st_temp,out_of_physical_bounds,6288,removed
+3409331,st_temp,flatline_>=6h,209,removed
+3409331,st_temp,hour_with_<50%_slots,544,hour set to NaN
+3409331,st_wind_dir,flatline_>=6h,193,removed
+3409331,st_wind_dir,hour_with_<50%_slots,239,hour set to NaN
+3409331,st_wind_speed,flatline_>=6h,195,removed
+3409331,st_wind_speed,hour_with_<50%_slots,237,hour set to NaN
+3409331,pm25,pm25_gt_pm10,65,flagged (kept)
+3409331,pm25,robust_z>6.0,16,flagged (kept)
+3409331,pm10,robust_z>6.0,24,flagged (kept)
+3409331,no2,robust_z>6.0,46,flagged (kept)
+3409331,co,robust_z>6.0,106,flagged (kept)
+3409331,o3,robust_z>6.0,41,flagged (kept)
+3409331,pm25,gap_<=2h_interpolated,612,linear interpolation (marked)
+3409435,co,flatline_>=6h,54,removed
+3409435,co,hour_with_<50%_slots,574,hour set to NaN
+3409435,no,out_of_physical_bounds,2230,removed
+3409435,no,flatline_>=6h,2891,removed
+3409435,no,hour_with_<50%_slots,684,hour set to NaN
+3409435,no2,out_of_physical_bounds,309,removed
+3409435,no2,flatline_>=6h,2799,removed
+3409435,no2,hour_with_<50%_slots,559,hour set to NaN
+3409435,nox,out_of_physical_bounds,598,removed
+3409435,nox,flatline_>=6h,1821,removed
+3409435,nox,hour_with_<50%_slots,382,hour set to NaN
+3409435,o3,out_of_physical_bounds,231,removed
+3409435,o3,flatline_>=6h,1023,removed
+3409435,o3,hour_with_<50%_slots,580,hour set to NaN
+3409435,pm10,out_of_physical_bounds,4,removed
+3409435,pm10,hour_with_<50%_slots,561,hour set to NaN
+3409435,pm25,out_of_physical_bounds,55,removed
+3409435,pm25,hour_with_<50%_slots,533,hour set to NaN
+3409435,so2,out_of_physical_bounds,22,removed
+3409435,so2,flatline_>=6h,51,removed
+3409435,so2,hour_with_<50%_slots,586,hour set to NaN
+3409435,st_rh,out_of_physical_bounds,268,removed
+3409435,st_rh,flatline_>=6h,22,removed
+3409435,st_rh,hour_with_<50%_slots,579,hour set to NaN
+3409435,st_temp,out_of_physical_bounds,2,removed
+3409435,st_temp,hour_with_<50%_slots,416,hour set to NaN
+3409435,st_wind_dir,out_of_physical_bounds,59,removed
+3409435,st_wind_dir,hour_with_<50%_slots,431,hour set to NaN
+3409435,st_wind_speed,out_of_physical_bounds,92,removed
+3409435,st_wind_speed,flatline_>=6h,2,removed
+3409435,st_wind_speed,hour_with_<50%_slots,437,hour set to NaN
+3409435,pm25,pm25_gt_pm10,97,flagged (kept)
+3409435,pm25,robust_z>6.0,64,flagged (kept)
+3409435,pm10,robust_z>6.0,72,flagged (kept)
+3409435,no2,robust_z>6.0,113,flagged (kept)
+3409435,so2,robust_z>6.0,123,flagged (kept)
+3409435,co,robust_z>6.0,44,flagged (kept)
+3409435,o3,robust_z>6.0,190,flagged (kept)
+3409435,pm25,gap_<=2h_interpolated,567,linear interpolation (marked)
+3409436,co,flatline_>=6h,443,removed
+3409436,co,hour_with_<50%_slots,523,hour set to NaN
+3409436,no,out_of_physical_bounds,22,removed
+3409436,no,flatline_>=6h,1108,removed
+3409436,no,hour_with_<50%_slots,522,hour set to NaN
+3409436,no2,out_of_physical_bounds,21,removed
+3409436,no2,flatline_>=6h,1257,removed
+3409436,no2,hour_with_<50%_slots,517,hour set to NaN
+3409436,nox,flatline_>=6h,290,removed
+3409436,nox,hour_with_<50%_slots,324,hour set to NaN
+3409436,o3,out_of_physical_bounds,8,removed
+3409436,o3,flatline_>=6h,354,removed
+3409436,o3,hour_with_<50%_slots,535,hour set to NaN
+3409436,pm10,out_of_physical_bounds,23,removed
+3409436,pm10,flatline_>=6h,518,removed
+3409436,pm10,hour_with_<50%_slots,537,hour set to NaN
+3409436,pm25,out_of_physical_bounds,37,removed
+3409436,pm25,flatline_>=6h,446,removed
+3409436,pm25,hour_with_<50%_slots,541,hour set to NaN
+3409436,so2,out_of_physical_bounds,91,removed
+3409436,so2,flatline_>=6h,1722,removed
+3409436,so2,hour_with_<50%_slots,597,hour set to NaN
+3409436,st_rh,out_of_physical_bounds,14,removed
+3409436,st_rh,flatline_>=6h,346,removed
+3409436,st_rh,hour_with_<50%_slots,520,hour set to NaN
+3409436,st_temp,out_of_physical_bounds,4,removed
+3409436,st_temp,flatline_>=6h,251,removed
+3409436,st_temp,hour_with_<50%_slots,497,hour set to NaN
+3409436,st_wind_dir,out_of_physical_bounds,698,removed
+3409436,st_wind_dir,flatline_>=6h,297,removed
+3409436,st_wind_dir,hour_with_<50%_slots,451,hour set to NaN
+3409436,st_wind_speed,out_of_physical_bounds,556,removed
+3409436,st_wind_speed,hour_with_<50%_slots,495,hour set to NaN
+3409436,pm25,pm25_gt_pm10,206,flagged (kept)
+3409436,pm25,robust_z>6.0,71,flagged (kept)
+3409436,pm10,robust_z>6.0,77,flagged (kept)
+3409436,no2,robust_z>6.0,40,flagged (kept)
+3409436,so2,robust_z>6.0,139,flagged (kept)
+3409436,co,robust_z>6.0,91,flagged (kept)
+3409436,o3,robust_z>6.0,333,flagged (kept)
+3409436,pm25,gap_<=2h_interpolated,592,linear interpolation (marked)
+3409437,co,flatline_>=6h,60,removed
+3409437,co,hour_with_<50%_slots,339,hour set to NaN
+3409437,no,out_of_physical_bounds,7,removed
+3409437,no,flatline_>=6h,202,removed
+3409437,no,hour_with_<50%_slots,355,hour set to NaN
+3409437,no2,flatline_>=6h,193,removed
+3409437,no2,hour_with_<50%_slots,350,hour set to NaN
+3409437,nox,hour_with_<50%_slots,232,hour set to NaN
+3409437,o3,out_of_physical_bounds,20,removed
+3409437,o3,flatline_>=6h,259,removed
+3409437,o3,hour_with_<50%_slots,342,hour set to NaN
+3409437,pm10,out_of_physical_bounds,29,removed
+3409437,pm10,flatline_>=6h,86,removed
+3409437,pm10,hour_with_<50%_slots,358,hour set to NaN
+3409437,pm25,out_of_physical_bounds,149,removed
+3409437,pm25,flatline_>=6h,144,removed
+3409437,pm25,hour_with_<50%_slots,373,hour set to NaN
+3409437,so2,out_of_physical_bounds,45,removed
+3409437,so2,flatline_>=6h,150,removed
+3409437,so2,hour_with_<50%_slots,412,hour set to NaN
+3409437,st_rh,out_of_physical_bounds,20,removed
+3409437,st_rh,flatline_>=6h,270,removed
+3409437,st_rh,hour_with_<50%_slots,351,hour set to NaN
+3409437,st_temp,out_of_physical_bounds,12,removed
+3409437,st_temp,hour_with_<50%_slots,340,hour set to NaN
+3409437,st_wind_dir,out_of_physical_bounds,1,removed
+3409437,st_wind_dir,hour_with_<50%_slots,219,hour set to NaN
+3409437,st_wind_speed,hour_with_<50%_slots,220,hour set to NaN
+3409437,pm25,pm25_gt_pm10,202,flagged (kept)
+3409437,pm25,robust_z>6.0,87,flagged (kept)
+3409437,pm10,robust_z>6.0,38,flagged (kept)
+3409437,no2,robust_z>6.0,37,flagged (kept)
+3409437,so2,robust_z>6.0,155,flagged (kept)
+3409437,co,robust_z>6.0,63,flagged (kept)
+3409437,o3,robust_z>6.0,170,flagged (kept)
+3409437,pm25,gap_<=2h_interpolated,470,linear interpolation (marked)
+3409438,co,out_of_physical_bounds,336,removed
+3409438,co,flatline_>=6h,265,removed
+3409438,co,hour_with_<50%_slots,439,hour set to NaN
+3409438,no,out_of_physical_bounds,1347,removed
+3409438,no,flatline_>=6h,336,removed
+3409438,no,hour_with_<50%_slots,580,hour set to NaN
+3409438,no2,out_of_physical_bounds,622,removed
+3409438,no2,flatline_>=6h,334,removed
+3409438,no2,hour_with_<50%_slots,461,hour set to NaN
+3409438,nox,out_of_physical_bounds,268,removed
+3409438,nox,flatline_>=6h,188,removed
+3409438,nox,hour_with_<50%_slots,255,hour set to NaN
+3409438,o3,out_of_physical_bounds,214,removed
+3409438,o3,flatline_>=6h,270,removed
+3409438,o3,hour_with_<50%_slots,446,hour set to NaN
+3409438,pm10,out_of_physical_bounds,46,removed
+3409438,pm10,flatline_>=6h,483,removed
+3409438,pm10,hour_with_<50%_slots,445,hour set to NaN
+3409438,pm25,out_of_physical_bounds,8,removed
+3409438,pm25,flatline_>=6h,442,removed
+3409438,pm25,hour_with_<50%_slots,454,hour set to NaN
+3409438,so2,out_of_physical_bounds,825,removed
+3409438,so2,flatline_>=6h,262,removed
+3409438,so2,hour_with_<50%_slots,476,hour set to NaN
+3409438,st_rh,flatline_>=6h,135,removed
+3409438,st_rh,hour_with_<50%_slots,406,hour set to NaN
+3409438,st_temp,out_of_physical_bounds,173,removed
+3409438,st_temp,hour_with_<50%_slots,403,hour set to NaN
+3409438,st_wind_dir,out_of_physical_bounds,46,removed
+3409438,st_wind_dir,flatline_>=6h,101,removed
+3409438,st_wind_dir,hour_with_<50%_slots,267,hour set to NaN
+3409438,st_wind_speed,out_of_physical_bounds,26,removed
+3409438,st_wind_speed,flatline_>=6h,101,removed
+3409438,st_wind_speed,hour_with_<50%_slots,269,hour set to NaN
+3409438,pm25,pm25_gt_pm10,170,flagged (kept)
+3409438,pm25,robust_z>6.0,108,flagged (kept)
+3409438,pm10,robust_z>6.0,84,flagged (kept)
+3409438,no2,robust_z>6.0,39,flagged (kept)
+3409438,so2,robust_z>6.0,231,flagged (kept)
+3409438,co,robust_z>6.0,42,flagged (kept)
+3409438,o3,robust_z>6.0,254,flagged (kept)
+3409438,pm25,gap_<=2h_interpolated,469,linear interpolation (marked)
+3409439,co,out_of_physical_bounds,2,removed
+3409439,co,flatline_>=6h,105,removed
+3409439,co,hour_with_<50%_slots,1080,hour set to NaN
+3409439,no,flatline_>=6h,233,removed
+3409439,no,hour_with_<50%_slots,1121,hour set to NaN
+3409439,no2,flatline_>=6h,216,removed
+3409439,no2,hour_with_<50%_slots,1107,hour set to NaN
+3409439,nox,flatline_>=6h,517,removed
+3409439,nox,hour_with_<50%_slots,500,hour set to NaN
+3409439,o3,out_of_physical_bounds,40,removed
+3409439,o3,flatline_>=6h,956,removed
+3409439,o3,hour_with_<50%_slots,965,hour set to NaN
+3409439,pm10,flatline_>=6h,178,removed
+3409439,pm10,hour_with_<50%_slots,1823,hour set to NaN
+3409439,pm25,out_of_physical_bounds,2,removed
+3409439,pm25,flatline_>=6h,48,removed
+3409439,pm25,hour_with_<50%_slots,1709,hour set to NaN
+3409439,so2,out_of_physical_bounds,13,removed
+3409439,so2,hour_with_<50%_slots,1104,hour set to NaN
+3409439,st_rh,hour_with_<50%_slots,1262,hour set to NaN
+3409439,st_temp,hour_with_<50%_slots,1412,hour set to NaN
+3409439,st_wind_dir,hour_with_<50%_slots,1172,hour set to NaN
+3409439,st_wind_speed,flatline_>=6h,4,removed
+3409439,st_wind_speed,hour_with_<50%_slots,1259,hour set to NaN
+3409439,pm25,pm25_gt_pm10,21,flagged (kept)
+3409439,pm25,robust_z>6.0,29,flagged (kept)
+3409439,pm10,robust_z>6.0,27,flagged (kept)
+3409439,no2,robust_z>6.0,11,flagged (kept)
+3409439,so2,robust_z>6.0,28,flagged (kept)
+3409439,co,robust_z>6.0,40,flagged (kept)
+3409439,o3,robust_z>6.0,220,flagged (kept)
+3409439,pm25,gap_<=2h_interpolated,552,linear interpolation (marked)
+3409523,co,out_of_physical_bounds,1,removed
+3409523,co,flatline_>=6h,135,removed
+3409523,co,hour_with_<50%_slots,829,hour set to NaN
+3409523,no,flatline_>=6h,114,removed
+3409523,no,hour_with_<50%_slots,830,hour set to NaN
+3409523,no2,flatline_>=6h,112,removed
+3409523,no2,hour_with_<50%_slots,829,hour set to NaN
+3409523,nox,flatline_>=6h,95,removed
+3409523,nox,hour_with_<50%_slots,441,hour set to NaN
+3409523,o3,flatline_>=6h,664,removed
+3409523,o3,hour_with_<50%_slots,836,hour set to NaN
+3409523,pm10,flatline_>=6h,85,removed
+3409523,pm10,hour_with_<50%_slots,839,hour set to NaN
+3409523,pm25,flatline_>=6h,274,removed
+3409523,pm25,hour_with_<50%_slots,836,hour set to NaN
+3409523,st_rh,flatline_>=6h,20775,removed
+3409523,st_rh,hour_with_<50%_slots,714,hour set to NaN
+3409523,st_temp,out_of_physical_bounds,4824,removed
+3409523,st_temp,flatline_>=6h,31,removed
+3409523,st_temp,hour_with_<50%_slots,750,hour set to NaN
+3409523,st_wind_dir,flatline_>=6h,14351,removed
+3409523,st_wind_dir,hour_with_<50%_slots,229,hour set to NaN
+3409523,st_wind_speed,out_of_physical_bounds,3159,removed
+3409523,st_wind_speed,flatline_>=6h,15276,removed
+3409523,st_wind_speed,hour_with_<50%_slots,393,hour set to NaN
+3409523,pm25,pm25_gt_pm10,128,flagged (kept)
+3409523,pm25,robust_z>6.0,161,flagged (kept)
+3409523,pm10,robust_z>6.0,71,flagged (kept)
+3409523,no2,robust_z>6.0,41,flagged (kept)
+3409523,co,robust_z>6.0,259,flagged (kept)
+3409523,o3,robust_z>6.0,76,flagged (kept)
+3409523,pm25,gap_<=2h_interpolated,926,linear interpolation (marked)
+3409526,co,out_of_physical_bounds,74,removed
+3409526,co,flatline_>=6h,857,removed
+3409526,co,hour_with_<50%_slots,766,hour set to NaN
+3409526,no,flatline_>=6h,327,removed
+3409526,no,hour_with_<50%_slots,759,hour set to NaN
+3409526,no2,flatline_>=6h,287,removed
+3409526,no2,hour_with_<50%_slots,762,hour set to NaN
+3409526,nox,hour_with_<50%_slots,450,hour set to NaN
+3409526,o3,flatline_>=6h,1529,removed
+3409526,o3,hour_with_<50%_slots,776,hour set to NaN
+3409526,pm10,flatline_>=6h,476,removed
+3409526,pm10,hour_with_<50%_slots,771,hour set to NaN
+3409526,pm25,flatline_>=6h,267,removed
+3409526,pm25,hour_with_<50%_slots,772,hour set to NaN
+3409526,st_rh,flatline_>=6h,5238,removed
+3409526,st_rh,hour_with_<50%_slots,776,hour set to NaN
+3409526,st_temp,out_of_physical_bounds,72,removed
+3409526,st_temp,flatline_>=6h,268,removed
+3409526,st_temp,hour_with_<50%_slots,758,hour set to NaN
+3409526,st_wind_dir,hour_with_<50%_slots,448,hour set to NaN
+3409526,st_wind_speed,hour_with_<50%_slots,446,hour set to NaN
+3409526,pm25,pm25_gt_pm10,75,flagged (kept)
+3409526,pm25,robust_z>6.0,16,flagged (kept)
+3409526,pm10,robust_z>6.0,34,flagged (kept)
+3409526,no2,robust_z>6.0,58,flagged (kept)
+3409526,co,robust_z>6.0,40,flagged (kept)
+3409526,o3,robust_z>6.0,48,flagged (kept)
+3409526,pm25,gap_<=2h_interpolated,823,linear interpolation (marked)
+3409528,co,flatline_>=6h,699,removed
+3409528,co,hour_with_<50%_slots,661,hour set to NaN
+3409528,no,flatline_>=6h,2337,removed
+3409528,no,hour_with_<50%_slots,644,hour set to NaN
+3409528,no2,flatline_>=6h,2338,removed
+3409528,no2,hour_with_<50%_slots,644,hour set to NaN
+3409528,nox,flatline_>=6h,1164,removed
+3409528,nox,hour_with_<50%_slots,353,hour set to NaN
+3409528,o3,flatline_>=6h,1216,removed
+3409528,o3,hour_with_<50%_slots,721,hour set to NaN
+3409528,pm10,flatline_>=6h,922,removed
+3409528,pm10,hour_with_<50%_slots,745,hour set to NaN
+3409528,pm25,flatline_>=6h,723,removed
+3409528,pm25,hour_with_<50%_slots,684,hour set to NaN
+3409528,st_rh,flatline_>=6h,1185,removed
+3409528,st_temp,out_of_physical_bounds,1002,removed
+3409528,st_temp,flatline_>=6h,181,removed
+3409528,st_wind_dir,flatline_>=6h,27,removed
+3409528,st_wind_speed,flatline_>=6h,27,removed
+3409528,pm25,pm25_gt_pm10,98,flagged (kept)
+3409528,pm25,robust_z>6.0,47,flagged (kept)
+3409528,pm10,robust_z>6.0,40,flagged (kept)
+3409528,no2,robust_z>6.0,36,flagged (kept)
+3409528,co,robust_z>6.0,119,flagged (kept)
+3409528,o3,robust_z>6.0,115,flagged (kept)
+3409528,pm25,gap_<=2h_interpolated,754,linear interpolation (marked)
+3410005,co,out_of_physical_bounds,30,removed
+3410005,co,flatline_>=6h,10296,removed
+3410005,co,hour_with_<50%_slots,329,hour set to NaN
+3410005,no,out_of_physical_bounds,40,removed
+3410005,no,flatline_>=6h,1981,removed
+3410005,no,hour_with_<50%_slots,362,hour set to NaN
+3410005,no2,out_of_physical_bounds,1,removed
+3410005,no2,flatline_>=6h,2015,removed
+3410005,no2,hour_with_<50%_slots,365,hour set to NaN
+3410005,nox,out_of_physical_bounds,3,removed
+3410005,nox,flatline_>=6h,1150,removed
+3410005,nox,hour_with_<50%_slots,290,hour set to NaN
+3410005,o3,out_of_physical_bounds,11,removed
+3410005,o3,flatline_>=6h,2271,removed
+3410005,o3,hour_with_<50%_slots,409,hour set to NaN
+3410005,pm10,flatline_>=6h,1297,removed
+3410005,pm10,hour_with_<50%_slots,365,hour set to NaN
+3410005,pm25,flatline_>=6h,1211,removed
+3410005,pm25,hour_with_<50%_slots,372,hour set to NaN
+3410005,st_rh,out_of_physical_bounds,6362,removed
+3410005,st_rh,flatline_>=6h,613,removed
+3410005,st_rh,hour_with_<50%_slots,363,hour set to NaN
+3410005,st_temp,out_of_physical_bounds,11278,removed
+3410005,st_temp,flatline_>=6h,237,removed
+3410005,st_temp,hour_with_<50%_slots,240,hour set to NaN
+3410005,st_wind_dir,flatline_>=6h,350,removed
+3410005,st_wind_dir,hour_with_<50%_slots,214,hour set to NaN
+3410005,st_wind_speed,out_of_physical_bounds,4192,removed
+3410005,st_wind_speed,flatline_>=6h,170,removed
+3410005,st_wind_speed,hour_with_<50%_slots,237,hour set to NaN
+3410005,pm25,pm25_gt_pm10,182,flagged (kept)
+3410005,pm25,robust_z>6.0,21,flagged (kept)
+3410005,pm10,robust_z>6.0,28,flagged (kept)
+3410005,no2,robust_z>6.0,55,flagged (kept)
+3410005,co,robust_z>6.0,66,flagged (kept)
+3410005,o3,robust_z>6.0,67,flagged (kept)
+3410005,pm25,gap_<=2h_interpolated,419,linear interpolation (marked)
